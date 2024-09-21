@@ -1,6 +1,7 @@
 import { Body, Controller, HttpStatus, Post, Res } from '@nestjs/common';
 import { ExcalidrawService } from './excalidraw.service';
-import { CreateExcalidrawDto } from 'src/dto/create-excalidraw.dto';
+// import { CreateExcalidrawDto } from '../dto/create-excalidraw.dto';
+import { CreateExcalidrawDto } from '@/src/dto/create-excalidraw.dto';
 
 @Controller('excalidraw')
 export class ExcalidrawController {

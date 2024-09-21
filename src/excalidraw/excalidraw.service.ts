@@ -1,8 +1,10 @@
 import { Injectable } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
-import { CreateExcalidrawDto } from 'src/dto/create-excalidraw.dto';
-import { IFExcalidraw } from 'src/interface/excalidraw.interface';
+// import { IFExcalidraw } from '../interface/excalidraw.interface';
+// import { CreateExcalidrawDto } from '../dto/create-excalidraw.dto';
+import { CreateExcalidrawDto } from '@/src/dto/create-excalidraw.dto';
+import { IFExcalidraw } from '@/src/interface/excalidraw.interface';
 
 @Injectable()
 export class ExcalidrawService {
